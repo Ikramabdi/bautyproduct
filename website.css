@@ -1,0 +1,98 @@
+.jumbotron{
+	/*background-image: url("https://source.unsplash.com/Q3zvxHEm6B4");*/
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+#beautyPage_helloj{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800px;
+    font-size: 200px;
+    color: black;
+}
+
+.beautyPage{
+	width: 300px;
+	height: 400px;
+	position: relative;
+	top: 150px;
+	left: 160px;
+	float: center;
+	margin: 0 auto;
+}
+
+tr{
+	background-color: none;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.icon{
+	color: white;
+	width: 100%;
+}
+
+.collapse .navbar-collapse{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.bs-nav-demo {
+  text-align: center;
+
+}
+
+td{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800px;
+    font-size: 23px;
+    margin-left: 1.66%;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+    color: black;
+}
+
+h2{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: capitalize;
+	font-weight: 800px;
+	font-size: 23px;
+}
+
+h1{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 800px;
+    font-size: 23px;
+}
+#bttn{
+	color: black;
+}
+
+img{
+	width: 30%;
+	float: center;
+	margin: 1.66%;
+	width: 200px;
+	height: 200px;
+}
+
+#shoppingcart{
+	/*width: 1060px;
+	height: 335px;*/
+	background-color: white;
+	height: 200px;
+}

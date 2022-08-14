@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Payment</title>
+		
+		<link rel="stylesheet" type="text/css" href="website.css">
+		 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> */
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> */
+		 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> */
+	</head>
+	<body>
+
+		<h2>Payment for ParLaur Beauty!</h2>
+		<!-- Form to submit payment -->
+		<form action="paymentConfirm.php" method="post">
+            <table>
+            <tr>
+                <td>First name: </td>
+                <td><input type="text" name="firstName" value="" placeholder="Jane" autofocus required></td>
+                </tr>
+            <tr>
+                <td>Last name:</td> 
+                <td><input type="text" name="lastName" value="" placeholder="Doe" required></td>
+                </tr>            
+            <tr>
+                <td>Address:</td> 
+                <td><input type="text" name="address" value="" required></td>
+                </tr>
+            
+            <tr>
+                <td>City:</td> 
+                <td><input type="text" name="city" value="" required></td>
+                </tr>
+            
+            <tr>
+                <td>State:</td> 
+                <td><input type=text name="state" required></td>
+                </tr>
+            
+            <tr>
+                <td>Zip Code:</td> 
+                <td><input type="text" name="zip" required></td>
+				</tr>
+                
+            <tr>
+                <td>Phone:</td> 
+                <td><input type = "text" placeholder = "(###) ###-####" name="phone"/></td>
+                </tr>
+                
+            <tr>
+                <td>E-mail Address:</td> 
+                <td><input type="email" name="email" value="" placeholder="name@domain.com" required></td>
+                </tr>
+                       
+            <tr>
+                <td>Payment Method:</td> 
+                <td><select name="card"><datalist id="payment" name="card" required>
+                    <option value="MS">MasterCard</option>
+                    <option value="VISA">Visa</option>
+                    <option value="AMEX">American Express</option>
+                    <option value ="DISC">Discover</option>
+                    <option value="DEBIT">Debit</option>
+                    <option value="CHASE">Chase</option>
+                    </datalist></select></td>
+                </tr>
+                
+            <tr>
+                <td>Card Number:</td> 
+                <td><input type="text" name="cardnumber" value="" required><br></td>
+				</tr>
+             
+            <tr>
+                <td><input type = "submit"> <input type ="reset" ></td> 
+                </tr>
+            
+            </table>
+        </form>
+	</body>
+</html>
